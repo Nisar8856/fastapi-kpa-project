@@ -1,0 +1,55 @@
+{
+  "info": {
+    "name": "KPA FastAPI Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Form Data",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Nisar Shaikh\",\n  \"phone\": \"9876543210\",\n  \"address\": \"Mumbai\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/formdata/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "formdata",
+            ""
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Form Data by ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/formdata/2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "formdata",
+            "2"
+          ]
+        }
+      }
+    }
+  ]
+}
