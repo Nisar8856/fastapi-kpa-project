@@ -3,6 +3,16 @@
 A high-performance REST API built using **FastAPI** and **PostgreSQL**.  
 The project supports CRUD operations on form data and is documented with **Swagger UI** for easy testing.
 
+## 📸 Screenshots
+
+
+### ✅ Swagger UI - FastAPI GET Response
+![UI](https://github.com/user-attachments/assets/a80f29e9-a089-4859-b1c1-206caf43347f)
+
+
+### ✅ Postman - API Test
+![Postman](https://github.com/user-attachments/assets/475f33f1-7b23-4c47-b16a-3aa2118ad139)
+
 ---
 
 ## 🚀 Features
